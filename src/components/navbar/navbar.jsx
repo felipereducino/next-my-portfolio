@@ -45,10 +45,10 @@ const Navbar = () => {
       </div>
       {/* SOCIAL MEDIA */}
       <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="/">
+        <Link href="https://github.com/felipereducino" target="_blank">
           <Image src="/github.png" alt="GitHub Icon" width={24} height={24} />
         </Link>
-        <Link href="/">
+        <Link href="https://www.instagram.com/felipereducino/" target="_blank">
           <Image
             src="/instagram.png"
             alt="Instagram Icon"
@@ -56,7 +56,10 @@ const Navbar = () => {
             height={24}
           />
         </Link>
-        <Link href="/">
+        <Link
+          href="https://www.linkedin.com/in/felipe-reducino/"
+          target="_blank"
+        >
           <Image
             src="/linkedin.png"
             alt="LinkedIn Icon"
