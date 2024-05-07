@@ -30,7 +30,7 @@ const AboutPage = () => {
           <div className="flex flex-col gap-12 justify-center">
             {/* BIOGRAPHY IMAGE */}
             <Image
-              src="https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/avatar.jpeg"
               alt=""
               width={112}
               height={112}
@@ -40,15 +40,15 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              harum quibusdam cupiditate nobis accusamus sed aut aperiam,
-              reiciendis numquam! Voluptas voluptatibus obcaecati dolore itaque
-              suscipit! Vel doloremque numquam quam nihil.
+              As a front-end software engineer with experience in market place,
+              e-commerce, fintech, and design systems, I excel at crafting
+              user-friendly interfaces using cutting-edge technologies. I thrive
+              on delivering exceptional user experiences and high-quality
+              solutions, collaborating seamlessly with cross-functional teams to
+              achieve results.
             </p>
             {/* BIOGRAPHY QUOTE */}
-            <span className="italic">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </span>
+            <span className="italic">The more i know, the less i know.</span>
             {/* BIOGRAPHY SIGN SVG*/}
             <div className="self-end">
               <svg

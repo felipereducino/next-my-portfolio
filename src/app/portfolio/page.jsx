@@ -8,7 +8,9 @@ const PortfolioPage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="">PortfolioPage</div>
+      <div className="h-full flex justify-center items-center text-3xl">
+        Coming soon...
+      </div>
     </motion.div>
   );
 };
